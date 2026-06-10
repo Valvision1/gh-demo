@@ -11,11 +11,11 @@ spec:
     image: polinux/stress
     resources:
       requests:
-        memory: "?????"
-        cpu: "????"
+        memory: "50Mi"
+        cpu: "100m"
       limits:
-        memory: "?????"
-        cpu: "?????"
+        memory: "100Mi"
+        cpu: "200m"
     
     # --- The Stress Command ---
     # The 'stress' utility is used here to allocate memory.
