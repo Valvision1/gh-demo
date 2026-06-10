@@ -54,5 +54,5 @@ spec:
 
   # Shared volume for logs
   volumes:
-    - name: TODO
+    - name: nginx-logs
       emptyDir: {}
